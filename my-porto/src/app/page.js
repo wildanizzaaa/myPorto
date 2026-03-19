@@ -6,7 +6,7 @@ export default function Home() {
       <div className="flex items-center justify-center min-h-[70vh] w-full">
         <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8  overflow-hidden p-0 md:p-0">
           {/* Kiri: Tulisan */}
-          <div className="flex flex-col justify-center items-center md:items-start px-8 py-12 md:py-20 w-full md:max-w-xl">
+          <div className="flex flex-col justify-center items-center md:items-start px-8 py-12 md:py-20 w-full md:max-w-xl" style={{ background: 'rgba(0,123,255,0.25)' }}>
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4 flex items-center gap-2">
               Hi, I'm Wildan
               <span
@@ -42,7 +42,7 @@ export default function Home() {
             </div>
           </div>
           {/* Kanan: Foto */}
-          <div className="flex items-center justify-center bg-black/30 p-0 md:p-8">
+          <div className="flex items-center justify-center bg-black/30 p-0 md:p-8" style={{ background: 'rgba(40,167,69,0.25)' }}>
             <img
               src="/Muhammad Wildan Izzaturrahman - Crop-jukebox-bg-removed.png"
               alt="Foto Muhammad Wildan Izzaturrahman"

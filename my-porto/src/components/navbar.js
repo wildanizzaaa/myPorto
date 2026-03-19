@@ -10,9 +10,9 @@ export default function Navbar() {
             style={{
                 width: '100%',
                 padding: '1rem 2rem',
-                background: '#f4f4f5',
-                borderBottom: '1px solid #e5e7eb',
-                marginBottom: '2rem',
+                background: 'rgba(255, 193, 7, 0.25)', // kuning transparan
+                borderBottom: 'none',
+                marginBottom: 0,
                 display: 'grid',
                 gridTemplateColumns: '1fr 1fr 1fr 1fr',
                 alignItems: 'center',

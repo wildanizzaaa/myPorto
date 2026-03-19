@@ -9,8 +9,11 @@ export default function RootLayout({ children }) {
         {/* Navbar utama di bagian atas */}
         <Navbar />
 
+
         {/* Konten utama halaman */}
-        {children}
+        <main style={{ background: 'rgba(0, 255, 255, 0.18)', minHeight: '60vh', width: '100%' }}>
+          {children}
+        </main>
 
         {/* Footer di bagian bawah */}
         <footer
@@ -18,8 +21,8 @@ export default function RootLayout({ children }) {
             width: '100%',
             padding: '1rem 2rem',
             background: '#f4f4f5',
-            borderTop: '1px solid #e5e7eb',
-            marginTop: '2rem',
+              borderTop: 'none',
+              marginTop: 0,
             textAlign: 'center',
             color: '#666',
             fontSize: '1rem',
